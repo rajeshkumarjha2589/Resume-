@@ -1,0 +1,38 @@
+.main-container {
+    padding: 24px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    font-size: 16px;
+
+    .heading {
+        .name {
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        .contact {
+            padding-bottom: 8px;
+            padding-top: 8px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: unset;
+            flex-wrap: wrap;
+        }
+
+        .title {
+
+            font-size: 20px;
+        }
+
+
+    }
+
+    .sub-titel {
+        font: bold;
+        font-size: 20px;
+
+    }
+}
