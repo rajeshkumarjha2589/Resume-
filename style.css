@@ -1,37 +1,44 @@
-.main-container {
-    padding: 24px;
+body {
+   
     display: flex;
-    gap: 24px;
-    flex-direction: column;
-    font-size: 16px;
-    border: 2px solid;
+    justify-content: center;
 
-    .heading {
-        .name {
-            font-size: 24px;
-            display: flex;
-            justify-content: center;
+    .main-container {
+        padding: 24px;
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        font-size: 16px;
+        border: 2px solid;
+        max-width: 700px;
+
+        .heading {
+            .name {
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .contact {
+                padding-bottom: 8px;
+                padding-top: 8px;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: unset;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .title {
+
+                font-size: 20px;
+            }
         }
 
-        .contact {
-            padding-bottom: 8px;
-            padding-top: 8px;
-            display: flex;
-            justify-content: space-evenly;
-            flex-direction: unset;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .title {
-
+        .sub-titel {
+            font: bold;
             font-size: 20px;
+
         }
-    }
-
-    .sub-titel {
-        font: bold;
-        font-size: 20px;
-
     }
 }
